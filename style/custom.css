@@ -1,0 +1,81 @@
+/**
+ * Custom CSS
+ * This is the very last piece of CSS loaded, so if something looks weird,
+ * try removing your custom CSS from the theme settings page.
+ */
+
+/* stylelint-disable */
+/* Disabling as setting custom styles. */
+[[setting:fontfilesheading]]
+
+[[setting:fontfilesbody]]
+
+[[setting:headerbackground]]
+
+[[setting:categorycoursetitle]]
+
+[[setting:customcss]]
+/* stylelint-enable */
+
+/*#headerlogo {
+  display: none !important;
+}*/
+
+.dropdown-toggle:hover {
+    background-color: red !important;
+}
+.slideshow img{
+    width:100% !important;
+    margins: 0px !important;
+    padding: 0px !important;
+}
+
+.miercuri{
+  width: 50%;
+  height: 400px;
+  margin:auto !important;
+}
+
+.logo-container img{
+  width:100px !important;
+}
+.logo-container{
+  width:100% !important;
+  text-align: center !important;
+}
+
+.logo-container .logo{
+  float:none !important;
+  margin:auto !important;
+}
+
+#page-header{
+  margin-top: 0px !important;
+
+}
+
+#essentialnavbar{
+  position:relative !important;
+
+}
+
+#essentialnavbar .navbar{
+  position:relative !important;
+}
+
+.block_contacts .content .mform .fitem .felement{
+  margin-left: 20px !important;
+}
+
+.block_contacts .content .mform .fitem .fitemtitle{
+  text-align: left !important;
+  margin-left: 30px !important;
+}
+
+.block_contacts .fdescription{
+  margin-left: 0px !important;
+}
+
+.logo .img-responsive{
+  padding:10px !important;
+}
